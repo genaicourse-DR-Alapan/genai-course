@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Generative AI and Large Language Models</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+
+    <div id="progressBar"></div>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <span>GenAI Course</span>
+
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#modules">Modules</a></li>
+
+            <li><a href="#timeline">Timeline</a></li>
+
+            <li><a href="#evaluation">Evaluation</a></li>
+            
+            <li><a href="#integrity">Integrity</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Generative AI &<br>Large Language Models</h1>
+
+            <p>
+                Learn Transformers, GPT, LLMs, Prompt Engineering,
+                RAG, Agentic AI and Vision Language Models.
+            </p>
+
+            <div class="course-info">
+
+                <div class="card">
+
+                    <h3>Course Code</h3>
+
+                    <p>AD470</p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Credits</h3>
+
+                    <p>3-0-3</p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Instructor</h3>
+
+                    <p>Alapan Kuila</p>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="btn">
+
+                Explore Course
+
+            </a>
+
+        </div>
+
+    </section>
+    <!-- About -->
+
+    <section id="about">
+
+        <h2 class="section-title">About the Course</h2>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+
+                <h3>Course Objectives</h3>
+
+                <ul>
+                    <li>Understand Generative AI fundamentals.</li>
+                    <li>Learn Transformer architecture.</li>
+                    <li>Build RAG systems.</li>
+                    <li>Fine-tune LLMs.</li>
+                    <li>Study AI Safety and Ethics.</li>
+                </ul>
+
+            </div>
+
+            <div class="about-card">
+
+                <h3>Prerequisites</h3>
+
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Python Programming</li>
+                    <li>Deep Learning</li>
+                    <li>Linear Algebra</li>
+                    <li>Probability</li>
+                    <li>Basic NLP</li>
+                </ul>
+
+            </div>
+
+            <div class="about-card">
+
+                <h3>Learning Outcomes</h3>
+
+                <ul>
+                    <li>Understand Transformers</li>
+                    <li>Fine-tune LLMs</li>
+                    <li>Develop RAG Systems</li>
+                    <li>Vision Language Models</li>
+                    <li>Responsible AI</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= Modules ================= -->
+
+    <section id="modules">
+
+        <h2 class="section-title">Course Modules</h2>
+
+        <div class="module-container">
+
+            <div class="module-card">
+
+                <div class="module-number">01</div>
+
+                <h3>Foundations of NLP</h3>
+
+                <p>
+                    NLP Fundamentals, Language Models,
+                    Deep Learning, PyTorch,
+                    Word2Vec, GloVe,
+                    FastText and Tokenization.
+                </p>
+
+            </div>
+
+            <div class="module-card">
+
+                <div class="module-number">02</div>
+
+                <h3>Neural Language Models</h3>
+
+                <p>
+                    RNN, LSTM,
+                    GRU, Seq2Seq,
+                    Attention,
+                    Beam Search and
+                    Decoding Strategies.
+                </p>
+
+            </div>
+
+            <div class="module-card">
+
+                <div class="module-number">03</div>
+
+                <h3>Transformers</h3>
+
+                <p>
+                    Self Attention,
+                    BERT,
+                    GPT,
+                    T5,
+                    Llama,
+                    Mistral,
+                    Gemini,
+                    Hugging Face.
+                </p>
+
+            </div>
+
+            <div class="module-card">
+
+                <div class="module-number">04</div>
+
+                <h3>Prompt Engineering</h3>
+
+                <p>
+                    Prompt Engineering,
+                    Instruction Tuning,
+                    RLHF,
+                    DPO,
+                    LoRA,
+                    QLoRA,
+                    Planning and Reasoning.
+                </p>
+
+            </div>
+
+            <div class="module-card">
+
+                <div class="module-number">05</div>
+
+                <h3>RAG & Agentic AI</h3>
+
+                <p>
+                    Retrieval Augmented Generation,
+                    Vector Databases,
+                    GraphRAG,
+                    Knowledge Graphs,
+                    Tool Calling,
+                    AI Agents.
+                </p>
+
+            </div>
+
+            <div class="module-card">
+
+                <div class="module-number">06</div>
+
+                <h3>Vision Language Models</h3>
+
+                <p>
+                    CLIP,
+                    BLIP,
+                    LLaVA,
+                    Qwen-VL,
+                    Diffusion Models,
+                    AI Safety,
+                    Ethics,
+                    Efficient Inference.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= Timeline ================= -->
+
+    <section id="timeline">
+
+        <h2 class="section-title">14-Week Course Timeline</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 1</h3>
+                    <p>Introduction to Generative AI & Natural Language Processing</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 2</h3>
+                    <p>Language Models and Probability Foundations</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 3</h3>
+                    <p>Deep Learning Fundamentals using PyTorch</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 4</h3>
+                    <p>RNN, LSTM, GRU and Sequence Models</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 5</h3>
+                    <p>Attention Mechanism and Sequence-to-Sequence Models</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 6</h3>
+                    <p>Transformer Architecture & Self Attention</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 7</h3>
+                    <p>BERT, GPT, T5, Llama and Foundation Models</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 8</h3>
+                    <p>Prompt Engineering, LoRA and QLoRA</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 9</h3>
+                    <p>RLHF, Alignment and Instruction Tuning</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 10</h3>
+                    <p>Retrieval Augmented Generation (RAG)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 11</h3>
+                    <p>Knowledge Graphs and Agentic AI</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 12</h3>
+                    <p>Vision Language Models & Diffusion Models</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Week 13</h3>
+                    <p>Evaluation, Hallucinations, AI Safety & Ethics</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Week 14</h3>
+                    <p>Semester Project Presentation & Course Revision</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= Evaluation ================= -->
+
+    <section id="evaluation">
+
+        <h2 class="section-title">Evaluation Scheme</h2>
+
+        <div class="evaluation-grid">
+
+            <div class="evaluation-card">
+                <h3>End Semester Exam</h3>
+
+                <div class="progress">
+                    <div class="progress-bar p60">60%</div>
+                </div>
+
+                <p>Main written examination covering the complete syllabus.</p>
+            </div>
+
+            <div class="evaluation-card">
+                <h3>Semester Project</h3>
+
+                <div class="progress">
+                    <div class="progress-bar p20">20%</div>
+                </div>
+
+                <p>Complete implementation, experiments and final demonstration.</p>
+            </div>
+
+            <div class="evaluation-card">
+                <h3>Mid Semester Exam</h3>
+
+                <div class="progress">
+                    <div class="progress-bar p10">10%</div>
+                </div>
+
+                <p>Evaluation of the first half of the course.</p>
+            </div>
+
+            <div class="evaluation-card">
+                <h3>Assignments & Labs</h3>
+
+                <div class="progress">
+                    <div class="progress-bar p5">5%</div>
+                </div>
+
+                <p>Programming assignments and laboratory exercises.</p>
+            </div>
+
+            <div class="evaluation-card">
+                <h3>Paper Presentation</h3>
+
+                <div class="progress">
+                    <div class="progress-bar p5">5%</div>
+                </div>
+
+                <p>Presentation of a recent research paper in Generative AI.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Project Milestones ================= -->
+
+    <section>
+
+        <h2 class="section-title">Semester Project Roadmap</h2>
+
+        <div class="milestone-container">
+
+            <div class="milestone-card">
+
+                <span>01</span>
+
+                <h3>Problem Definition</h3>
+
+                <p>Literature Survey<br>Dataset Collection</p>
+
+                <strong>4 Marks</strong>
+
+            </div>
+
+            <div class="milestone-card">
+
+                <span>02</span>
+
+                <h3>Baseline Model</h3>
+
+                <p>Implementation<br>Initial Results</p>
+
+                <strong>3 Marks</strong>
+
+            </div>
+
+            <div class="milestone-card">
+
+                <span>03</span>
+
+                <h3>Proposed Method</h3>
+
+                <p>Experiments<br>Evaluation</p>
+
+                <strong>5 Marks</strong>
+
+            </div>
+
+            <div class="milestone-card">
+
+                <span>04</span>
+
+                <h3>Final Submission</h3>
+
+                <p>GitHub<br>Report<br>Poster<br>Demo</p>
+
+                <strong>8 Marks</strong>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= Books ================= -->
+
+    <section id="books">
+
+        <h2 class="section-title">Books & References</h2>
+
+        <div class="book-grid">
+
+            <div class="book-card">
+                <i class="fas fa-book-open"></i>
+                <h3>Foundations of Large Language Models</h3>
+                <p>Tong Xiao & Jingbo Zhu</p>
+            </div>
+
+            <div class="book-card">
+                <i class="fas fa-book"></i>
+                <h3>Speech and Language Processing</h3>
+                <p>Jurafsky & Martin</p>
+            </div>
+
+            <div class="book-card">
+                <i class="fas fa-book-reader"></i>
+                <h3>Natural Language Processing</h3>
+                <p>Jacob Eisenstein</p>
+            </div>
+
+            <div class="book-card">
+                <i class="fas fa-microscope"></i>
+                <h3>Research Papers</h3>
+                <p>ACL • EMNLP • NeurIPS • ICML • ICLR</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Academic Integrity =================
+
+    <section id="policy">
+
+        <h2 class="section-title">Academic Integrity</h2>
+
+        <div class="policy-card">
+
+            <i class="fas fa-shield-alt"></i>
+
+            <h2>Responsible AI Usage</h2>
+
+            <p>
+
+                Students are encouraged to use AI tools for learning,
+                debugging, brainstorming and improving technical writing.
+
+                However, every submission must reflect your own understanding.
+                Copying AI-generated code or reports without acknowledgement
+                is considered academic misconduct.
+
+                Every assignment should include an AI Usage Statement.
+
+            </p>
+
+        </div>
+
+    </section> -->
+        <!-- ================= Academic Integrity ================= -->
+
+    <section id="integrity">
+
+        <h2 class="section-title">Academic Integrity & AI Usage Policy</h2>
+
+        <div class="integrity-card">
+
+            <h3><i class="fas fa-shield-alt"></i> Academic Integrity</h3>
+
+            <p>
+                Technical discussions, knowledge sharing, and brainstorming with classmates
+                are encouraged. However, every submission must reflect your own understanding
+                and your team's original work.
+            </p>
+
+            <p>
+                Copying code, reports, figures, experimental results, or text from another
+                student, group, online source, or AI system without proper acknowledgement
+                constitutes academic misconduct.
+            </p>
+
+            <p>
+                Any collaboration with another student, group, or external source must be
+                explicitly acknowledged. Violations may result in negative marking, course
+                deregistration, and disciplinary action as per institute policy.
+            </p>
+
+            <hr>
+
+            <h3><i class="fas fa-robot"></i> AI Usage Policy</h3>
+
+            <p>
+                LLMs such as ChatGPT, Claude, Gemini, and Copilot are treated as learning
+                companions. They may be used to understand concepts, learn syntax, debug code,
+                brainstorm ideas, or improve technical writing.
+            </p>
+
+            <p>
+                Students must not copy AI-generated code or text into assignments or projects
+                without understanding and proper disclosure.
+            </p>
+
+            <p>
+                Every submission must include an <strong>AI Usage Statement</strong> describing
+                how AI tools were used. Failure to disclose AI assistance or inability to explain
+                submitted work during evaluation may be treated as academic misconduct.
+            </p>
+
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <strong>
+                    Failure to follow these rules will be considered cheating and dealt with
+                    according to the institute's academic integrity guidelines.
+                </strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Footer ================= -->
+
+    <footer>
+
+        <h2>Generative AI & Large Language Models</h2>
+
+        <p>Course Code : AD470</p>
+
+        <p>Instructor : Alapan Kuila</p>
+
+        <div class="social">
+
+            <a href="#"><i class="fab fa-github"></i></a>
+
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+            <a href="#"><i class="fab fa-google"></i></a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 Department of Computer Science
+
+        </p>
+
+    </footer>
+
+    <!-- Scroll Top -->
+
+    <button id="topBtn">
+
+    <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
