@@ -1335,5 +1335,117 @@ transform:scale(1.1);
         gap:15px;
 
     }
+    .college-header{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:20px;
+
+}
+
+.college-details{
+
+    text-align:center;
+
+}
+
+.college-logo{
+
+    width:90px;
+
+    height:90px;
+
+}
+
+.college-details h3{
+
+    font-size:18px;
+
+}
+
+.college-details p{
+
+    font-size:15px;
+
+}
+
+}
+/* ================= Institute Header ================= */
+
+.college-header{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:30px;
+
+    margin-bottom:45px;
+
+}
+
+.college-logo{
+
+    width:120px;
+
+    height:120px;
+
+    object-fit:contain;
+
+    filter:drop-shadow(0 8px 20px rgba(0,0,0,.35));
+
+    transition:.35s;
+
+}
+
+.college-logo:hover{
+
+    transform:scale(1.05);
+
+}
+
+.college-details{
+
+    text-align:left;
+
+}
+
+.college-details h3{
+
+    color:#ffffff;
+
+    font-size:24px;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.college-details p{
+
+    color:#93c5fd;
+
+    font-size:18px;
+
+    margin:0;
+
+}
+
+.course-description{
+
+    max-width:900px;
+
+    margin:25px auto 45px;
+
+    color:#cbd5e1;
+
+    font-size:21px;
+
+    line-height:1.8;
 
 }
