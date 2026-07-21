@@ -75,3 +75,10 @@ el.style.transition=".8s";
 observer.observe(el);
 
 });
+function openWeek1() {
+    document.getElementById("week1Modal").style.display = "block";
+}
+
+function closeWeek1() {
+    document.getElementById("week1Modal").style.display = "none";
+}
