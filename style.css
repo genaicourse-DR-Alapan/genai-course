@@ -1016,3 +1016,324 @@ transform:scale(1.1);
     color:#facc15;
 
 }
+/* ================= Course Materials ================= */
+
+.material-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+    margin-top:50px;
+
+}
+
+.material-card{
+
+    background:#1e293b;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+    text-align:center;
+
+}
+
+.material-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.material-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+    font-size:28px;
+
+}
+
+.material-card p{
+
+    color:#dbeafe;
+
+    margin-bottom:25px;
+
+    line-height:1.8;
+
+}
+
+
+/* ================= Modal ================= */
+
+.modal{
+
+    display:none;
+
+    position:fixed;
+
+    z-index:5000;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:100%;
+
+    overflow:auto;
+
+    background:rgba(0,0,0,.75);
+
+    backdrop-filter:blur(8px);
+
+    animation:fadeIn .3s ease;
+
+}
+
+
+/* Modal Box */
+
+.modal-content{
+
+    position:relative;
+
+    width:90%;
+
+    max-width:750px;
+
+    margin:70px auto;
+
+    padding:40px;
+
+    border-radius:24px;
+
+    background:rgba(30,41,59,.95);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.5);
+
+    animation:slideDown .35s ease;
+
+}
+
+
+/* Title */
+
+.modal-content h2{
+
+    color:#38bdf8;
+
+    margin-bottom:30px;
+
+    text-align:center;
+
+    font-size:34px;
+
+}
+
+
+/* PDF List */
+
+.modal-content ul{
+
+    list-style:none;
+
+}
+
+.modal-content li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 20px;
+
+    margin-bottom:15px;
+
+    background:#334155;
+
+    border-radius:14px;
+
+    transition:.3s;
+
+}
+
+.modal-content li:hover{
+
+    background:#475569;
+
+    transform:translateX(6px);
+
+}
+
+
+/* PDF Name */
+
+.modal-content li a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:500;
+
+}
+
+
+/* View Button */
+
+.modal-content li a:last-child{
+
+    background:#2563eb;
+
+    padding:10px 22px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.modal-content li a:last-child:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+/* Close Button */
+
+.close{
+
+    position:absolute;
+
+    right:25px;
+
+    top:20px;
+
+    font-size:34px;
+
+    color:#94a3b8;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.close:hover{
+
+    color:#38bdf8;
+
+    transform:rotate(90deg);
+
+}
+
+
+/* Scrollbar */
+
+.modal::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.modal::-webkit-scrollbar-thumb{
+
+    background:#38bdf8;
+
+    border-radius:20px;
+
+}
+
+
+/* Animation */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+@keyframes slideDown{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .modal-content{
+
+        width:95%;
+
+        padding:25px;
+
+    }
+
+    .modal-content h2{
+
+        font-size:26px;
+
+    }
+
+    .modal-content li{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+}
